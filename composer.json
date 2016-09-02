@@ -20,7 +20,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"drakonli\\PhpUtils": "src/drakonli/PhpUtils"
+			"drakonli\\PhpUtils\\": "src/drakonli/PhpUtils"
 		}
 	},
 	"minimum-stability": "stable"
