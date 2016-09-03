@@ -21,16 +21,6 @@ abstract class AbstractBasicImmutableCollection implements ImmutableCollectionIn
     private $position = 0;
 
     /**
-     * @return self
-     */
-    protected function incrementPosition()
-    {
-        $this->position = 0;
-
-        return $this;
-    }
-
-    /**
      * @inheritDoc
      */
     public function isEmpty()
