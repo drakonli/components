@@ -1,6 +1,6 @@
 <?php
 
-namespace drakonli\PhpUtils\Collection;
+namespace drakonli\PhpUtils\Collection\Immutable;
 
 use Iterator;
 use Countable;
@@ -9,7 +9,7 @@ use Countable;
  * @author    drakonli - Arthur Vinogradov - <artur.drakonli@gmail.com>
  * @link      www.linkedin.com/in/drakonli
  */
-interface CollectionInterface extends Iterator, Countable
+interface ImmutableCollectionInterface extends Iterator, Countable
 {
     /**
      * @return \SplBool

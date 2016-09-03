@@ -1,14 +1,14 @@
 <?php
 
-namespace drakonli\PhpUtils\Collection\Basic;
+namespace drakonli\PhpUtils\Collection\Immutable\Basic;
 
-use drakonli\PhpUtils\Collection\CollectionInterface;
+use drakonli\PhpUtils\Collection\Immutable\ImmutableCollectionInterface;
 
 /**
  * @author    drakonli - Arthur Vinogradov - <artur.drakonli@gmail.com>
  * @link      www.linkedin.com/in/drakonli
  */
-class AbstractBasicCollection implements CollectionInterface
+class AbstractBasicImmutableCollection implements ImmutableCollectionInterface
 {
     /**
      * @var array
