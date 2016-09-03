@@ -20,4 +20,9 @@ interface ImmutableCollectionInterface extends Iterator, Countable
      * @return int
      */
     public function key();
+
+    /**
+     * @return array
+     */
+    public function toArray();
 }

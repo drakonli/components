@@ -75,4 +75,12 @@ abstract class AbstractBasicImmutableCollection implements ImmutableCollectionIn
     {
         return count($this->elements);
     }
+
+    /**
+     * @inheritDoc
+     */
+    public function toArray()
+    {
+        return $this->elements;
+    }
 }
