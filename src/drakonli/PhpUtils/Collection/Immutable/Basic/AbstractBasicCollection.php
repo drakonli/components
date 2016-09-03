@@ -8,7 +8,7 @@ use drakonli\PhpUtils\Collection\Immutable\ImmutableCollectionInterface;
  * @author    drakonli - Arthur Vinogradov - <artur.drakonli@gmail.com>
  * @link      www.linkedin.com/in/drakonli
  */
-class AbstractBasicImmutableCollection implements ImmutableCollectionInterface
+abstract class AbstractBasicImmutableCollection implements ImmutableCollectionInterface
 {
     /**
      * @var array
