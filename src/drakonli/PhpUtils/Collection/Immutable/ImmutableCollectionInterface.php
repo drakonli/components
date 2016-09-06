@@ -2,8 +2,8 @@
 
 namespace drakonli\PhpUtils\Collection\Immutable;
 
-use Iterator;
 use Countable;
+use Iterator;
 
 /**
  * @author    drakonli - Arthur Vinogradov - <artur.drakonli@gmail.com>
