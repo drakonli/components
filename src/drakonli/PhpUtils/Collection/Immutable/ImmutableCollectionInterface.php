@@ -12,7 +12,7 @@ use Iterator;
 interface ImmutableCollectionInterface extends Iterator, Countable
 {
     /**
-     * @return \SplBool
+     * @return bool
      */
     public function isEmpty();
 
