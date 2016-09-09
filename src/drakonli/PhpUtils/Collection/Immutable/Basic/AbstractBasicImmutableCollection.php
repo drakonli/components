@@ -13,12 +13,22 @@ abstract class AbstractBasicImmutableCollection implements ImmutableCollectionIn
     /**
      * @var array
      */
-    protected $elements = [];
+    private $elements = [];
 
     /**
      * @var int
      */
     private $position = 0;
+
+    /**
+     * AbstractBasicImmutableCollection constructor.
+     *
+     * @param array $elements
+     */
+    public function __construct(array $elements)
+    {
+        $this->elements = $elements;
+    }
 
     /**
      * @inheritDoc

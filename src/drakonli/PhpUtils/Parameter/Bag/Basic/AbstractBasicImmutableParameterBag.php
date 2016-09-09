@@ -9,7 +9,7 @@ use drakonli\PhpUtils\Parameter\Bag\ImmutableParameterBagInterface;
  * @author    drakonli - Arthur Vinogradov - <artur.drakonli@gmail.com>
  * @link      www.linkedin.com/in/drakonli
  */
-class BasicImmutableParameterBag implements ImmutableParameterBagInterface
+abstract class AbstractBasicImmutableParameterBag implements ImmutableParameterBagInterface
 {
     /**
      * Parameter storage.
