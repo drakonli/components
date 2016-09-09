@@ -18,6 +18,6 @@ class BasicSplFileInfoCollection extends AbstractBasicImmutableCollection implem
      */
     public function __construct(array $files)
     {
-        $this->elements = $files;
+        parent::__construct($files);
     }
 }
