@@ -15,6 +15,10 @@ class BasicUrlHelper implements UrlHelperInterface
      */
     function isUrlEncoded($string)
     {
+        if (false === is_string($string)) {
+            return false;
+        }
+
         $hasInvalidChars = preg_match('#[^%a-zA-Z0-9\-_\.\+]#', $string);
         $hasEscapedChars = preg_match('#%[a-zA-Z0-9]{2}#', $string);
 
