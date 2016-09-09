@@ -29,6 +29,14 @@ abstract class AbstractBasicImmutableParameterBag implements ImmutableParameterB
     }
 
     /**
+     * @return array
+     */
+    protected function getParameters()
+    {
+        return $this->parameters;
+    }
+
+    /**
      * @inheritDoc
      */
     public function keys()
