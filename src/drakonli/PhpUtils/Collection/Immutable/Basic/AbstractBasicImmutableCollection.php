@@ -31,6 +31,14 @@ abstract class AbstractBasicImmutableCollection implements ImmutableCollectionIn
     }
 
     /**
+     * @return array
+     */
+    protected function getElements()
+    {
+        return $this->elements;
+    }
+
+    /**
      * @inheritDoc
      */
     public function isEmpty()
