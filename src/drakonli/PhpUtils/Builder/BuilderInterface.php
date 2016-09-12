@@ -10,4 +10,11 @@ namespace drakonli\PhpUtils\Builder;
  */
 interface BuilderInterface
 {
+    /**
+     * Using this method is essential to keeping the state of builder properly separated from all it's instances
+     * and uses.
+     *
+     * @return static
+     */
+    public function startBuilding();
 }
