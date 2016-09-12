@@ -43,7 +43,7 @@ abstract class AbstractBasicImmutableCollection implements ImmutableCollectionIn
      */
     public function isEmpty()
     {
-        return new \SplBool(0 === count($this->elements));
+        return 0 === count($this->elements);
     }
 
     /**

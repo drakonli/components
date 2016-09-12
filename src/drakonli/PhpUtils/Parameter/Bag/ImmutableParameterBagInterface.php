@@ -29,14 +29,14 @@ interface ImmutableParameterBagInterface
      *
      * @param string $key The key
      *
-     * @return \SplBool true if the parameter exists, false otherwise
+     * @return bool true if the parameter exists, false otherwise
      */
     public function has($key);
 
     /**
      * Returns the number of parameters.
      *
-     * @return \SplInt The number of parameters
+     * @return int The number of parameters
      */
     public function count();
 
