@@ -1,15 +1,16 @@
 <?php
 
-namespace drakonli\PhpUtils\Spl\File\Info\Collection\Basic;
+namespace drakonli\PhpUtils\Spl\File\Info\Collection;
 
 use drakonli\PhpUtils\Collection\Immutable\Basic\AbstractBasicImmutableCollection;
-use drakonli\PhpUtils\Spl\File\Info\Collection\SplFileInfoCollectionInterface;
 
 /**
  * @author    drakonli - Arthur Vinogradov - <artur.drakonli@gmail.com>
  * @link      www.linkedin.com/in/drakonli
+ *
+ * @method \SplFileInfo current
  */
-class BasicSplFileInfoCollection extends AbstractBasicImmutableCollection implements SplFileInfoCollectionInterface
+class SplFileCollection extends AbstractBasicImmutableCollection
 {
     /**
      * BasicSplFileInfoCollection constructor.
