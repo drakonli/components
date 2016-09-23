@@ -12,4 +12,14 @@ interface ErrorMessageInterface
      * @return string
      */
     public function getErrorMessage();
+
+    /**
+     * @return int
+     */
+    public function getErrorCode();
+
+    /**
+     * @return bool
+     */
+    public function hasErrorCode();
 }
