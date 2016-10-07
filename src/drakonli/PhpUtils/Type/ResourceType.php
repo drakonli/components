@@ -23,7 +23,7 @@ class ResourceType
     public function __construct($resourceValue)
     {
         if (false === is_resource($resourceValue)) {
-            throw new InvalidArgumentException('ResourceType cannot be created from %s', $resourceValue);
+            throw new InvalidArgumentException('ResourceType cannot be created from %s', print_r($resourceValue, true));
         }
 
         $this->resourceValue = $resourceValue;

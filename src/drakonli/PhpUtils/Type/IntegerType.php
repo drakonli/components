@@ -23,7 +23,7 @@ class IntegerType
     public function __construct($integerValue)
     {
         if (false === is_integer($integerValue)) {
-            throw new InvalidArgumentException('IntegerType cannot be created from %s', $integerValue);
+            throw new InvalidArgumentException('IntegerType cannot be created from %s', print_r($integerValue, true));
         }
 
         $this->integerValue = $integerValue;

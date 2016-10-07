@@ -23,7 +23,7 @@ class FloatType
     public function __construct($floatValue)
     {
         if (false === is_float($floatValue)) {
-            throw new InvalidArgumentException('FloatType cannot be created from %s', $floatValue);
+            throw new InvalidArgumentException('FloatType cannot be created from %s', print_r($floatValue, true));
         }
 
         $this->floatValue = $floatValue;

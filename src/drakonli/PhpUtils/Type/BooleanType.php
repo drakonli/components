@@ -34,7 +34,7 @@ class BooleanType
     public function __construct($booleanValue)
     {
         if (false === is_bool($booleanValue)) {
-            throw new InvalidArgumentException('BooleanType cannot be created from %s', $booleanValue);
+            throw new InvalidArgumentException('BooleanType cannot be created from %s', print_r($booleanValue, true));
         }
 
         $this->booleanValue = $booleanValue;
